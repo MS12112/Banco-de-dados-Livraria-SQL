@@ -10,6 +10,9 @@ WHERE e.status = 'ATIVO';
 SELECT COUNT(DISTINCT autor )
 FROM livros
 
-/* --*/
+/*Buscar livros publicados de determinado ano*/
+SELECT titulo, ano_publi
+FROM livros
+WHERE ano_publi BETWEEN 2000 AND 2025
+ORDER BY ano_publi ASC
 
-/* --*/
