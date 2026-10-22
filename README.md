@@ -1,4 +1,4 @@
-# Sistema de Biblioteca - SQL
+# Banco de dados Livraria - SQL
 
 Projeto prático para estudo de SQL e modelagem de banco de dados.
 
