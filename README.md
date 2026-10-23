@@ -76,4 +76,11 @@ Relacionamento N:N entre livros e autores utilizando chave primária composta.
 
 ## Aprendizados
 
-Durante o desenvolvimento deste projeto foram praticados conceitos de modelagem relacional, integridade referencial, normalização de dados e construção de consultas SQL utilizando relacionamentos entre tabelas.
+Durante o desenvolvimento deste projeto foram praticados conceitos de:
+
+- Modelagem relacional
+- Integridade referencial
+- Normalização de dados
+- Chaves primárias e estrangeiras
+- Relacionamentos entre tabelas
+- Consultas SQL - Básico ao Avançado
