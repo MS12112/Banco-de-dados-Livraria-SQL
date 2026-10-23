@@ -8,7 +8,7 @@ Simular um sistema de biblioteca contendo cadastro de usuários, livros, autores
 
 ## Diagrama Entidade Relacionamento (DER)
 
-![DER do Sistema de Biblioteca](diagrama_der_biblioteca.png)
+![DER do Sistema de Biblioteca](Sistema_Biblioteca/diagrama_der_biblioteca.png)
 
 ## Tecnologias
 
