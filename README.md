@@ -4,7 +4,7 @@ Projeto prático para estudo de SQL e modelagem de banco de dados.
 
 ## Objetivo
 
-Simular um sistema de biblioteca contendo cadastro de usuários, livros, autores, editoras e controle de empréstimos.
+Simulação de um sistema de biblioteca contendo cadastro de usuários, livros, autores, editoras e controle de empréstimos.
 
 ## Diagrama Entidade Relacionamento (DER)
 
