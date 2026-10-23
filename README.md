@@ -1,22 +1,75 @@
-# Banco de dados Livraria - SQL
+# Sistema de Biblioteca - SQL
 
 Projeto prático para estudo de SQL e modelagem de banco de dados.
 
 ## Objetivo
-Simular um sistema simples de biblioteca, com controle de usuários, livros e empréstimos.
+
+Simular um sistema de biblioteca contendo cadastro de usuários, livros, autores, editoras e controle de empréstimos.
 
 ## Tecnologias
-- SQLite
+
 - SQL
+- SQLite
+- DBeaver
 
 ## Estrutura do Banco
-- usuario
-- livros
-- emprestimos
 
-## Conceitos aplicados
+### Livro
+- id (PK)
+- titulo
+- editora_id (FK)
+- ano_publicacao
+- isbn (UNIQUE)
+
+### Autor
+- id (PK)
+- nome
+
+### Livro_Autor
+- livro_id (PK, FK)
+- autor_id (PK, FK)
+
+Relacionamento N:N entre livros e autores utilizando chave primária composta.
+
+### Editora
+- id (PK)
+- nome
+
+### Cliente
+- id (PK)
+- nome
+- email (UNIQUE)
+- cpf (UNIQUE)
+- celular
+
+### Emprestimo
+- id (PK)
+- cliente_id (FK)
+- livro_id (FK)
+- data_emprestimo
+- data_devolucao
+- status
+
+## Regras de Negócio
+
+- CPF único por cliente
+- Email único por cliente
+- ISBN único por livro
+- Status do empréstimo:
+  - EMPRESTADO
+  - DEVOLVIDO
+  - ATRASADO
+
+## Conceitos Aplicados
+
 - PRIMARY KEY
 - FOREIGN KEY
+- Chave Primária Composta
+- Relacionamento N:N
+- UNIQUE
 - CHECK
-- JOIN (INNER JOIN)
-- Regras de negócio com status de empréstimo
+- INNER JOIN
+
+## Aprendizados
+
+Durante o desenvolvimento deste projeto foram praticados conceitos de modelagem relacional, integridade referencial, normalização de dados e construção de consultas SQL utilizando relacionamentos entre tabelas.
