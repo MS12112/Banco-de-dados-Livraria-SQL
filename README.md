@@ -35,7 +35,7 @@ Relacionamento N:N entre livros e autores utilizando chave primária composta.
 - id (PK)
 - nome
 
-### Cliente
+### Usuario
 - id (PK)
 - nome
 - email (UNIQUE)
