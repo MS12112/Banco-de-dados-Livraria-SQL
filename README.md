@@ -18,10 +18,10 @@ Simulação de um sistema de biblioteca contendo cadastro de usuários, livros, 
 
 ## Estrutura do Banco
 
-### Livro
+### Livros
 - id (PK)
 - titulo
-- editora_id (FK)
+- editoras_id (FK)
 - ano_publicacao
 - isbn (UNIQUE)
 
@@ -29,27 +29,27 @@ Simulação de um sistema de biblioteca contendo cadastro de usuários, livros, 
 - id (PK)
 - nome
 
-### Livro_Autor
-- livro_id (PK, FK)
+### Livros_Autor
+- livros_id (PK, FK)
 - autor_id (PK, FK)
 
 Relacionamento N:N entre livros e autores utilizando chave primária composta.
 
-### Editora
+### Editoras
 - id (PK)
 - nome
 
-### Usuario
+### Usuarios
 - id (PK)
 - nome
 - email (UNIQUE)
 - cpf (UNIQUE)
 - celular
 
-### Emprestimo
+### Emprestimos
 - id (PK)
-- cliente_id (FK)
-- livro_id (FK)
+- usuarios_id (FK)
+- livros_id (FK)
 - data_emprestimo
 - data_devolucao
 - status
