@@ -40,10 +40,11 @@ CREATE TABLE emprestimos (
     livros_id INTEGER NOT NULL,
     data_emprestimo DATE NOT NULL,
     data_devolucao DATE NOT NULL,
-    status TEXT NOT NULL CHECK (status IN ('ATIVO', 'DEVOLVIDO', 'ATRASADO')),
-    FOREIGN KEY (usuarios_id) REFERENCES usuarios(id),
+    status TEXT NOT NULL
+    CHECK (status IN ('ATIVO', 'DEVOLVIDO')),
+	FOREIGN KEY (usuarios_id) REFERENCES usuarios(id),
     FOREIGN KEY (livros_id) REFERENCES livros(id)
-	);
+);
 
     -- Índices para performance
     CREATE INDEX idx_emprestimos_usuario
