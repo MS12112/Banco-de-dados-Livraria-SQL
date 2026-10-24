@@ -13,7 +13,7 @@ Simulação de um sistema de biblioteca contendo cadastro de usuários, livros, 
 ## Tecnologias
 
 - SQL
-- SQLite
+- PostgresSQL
 - DBeaver
 
 ## Estrutura do Banco
