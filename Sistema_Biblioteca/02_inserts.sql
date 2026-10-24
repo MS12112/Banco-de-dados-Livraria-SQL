@@ -195,3 +195,8 @@ VALUES
 ('João Silva', 'joao@email.com', '12345678901', '11999999999'),
 ('Maria Souza', 'maria@email.com', '12345678902', '11988888888'),
 ('Carlos Lima', 'carlos@email.com', '12345678903', '11977777777');
+
+INSERT INTO emprestimos
+(usuarios_id, livros_id, data_emprestimo, data_devolucao, status)
+VALUES
+(1, 30, '2026-10-01', '2026-10-15', 'ATIVO');
