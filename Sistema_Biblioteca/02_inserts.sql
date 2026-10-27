@@ -194,7 +194,23 @@ INSERT INTO usuarios
 VALUES
 ('João Silva', 'joao@email.com', '12345678901', '11999999999'),
 ('Maria Souza', 'maria@email.com', '12345678902', '11988888888'),
-('Carlos Lima', 'carlos@email.com', '12345678903', '11977777777');
+('Carlos Lima', 'carlos@email.com', '12345678903', '11977777777'),
+('João Silva',	'joao@email.com',	'12345678901',	'11999999999'),
+('Maria Souza',	'maria@email.com','12345678902',	'11988888888'),
+('Carlos Lima',	'carlos@email.com',	'12345678903',	'11977777777'),
+('Gabriel Marcelino',	'gabriel@email.com',	'12345678004',	'11966666666'),
+('Renato Santos',	'reanto@email.com',	'12345678005',	'11955555555'),
+('Marcos Silva',	'marcos@email.com',	'12345678006',	'11944444444'),
+('Lucas Eduardo dos Santos',	'lucas@email.com',	'12345678007',	'11933333333'),
+('Raissa Leal',	'raissa@email.com',	'12345678008',	'11922222222'),
+('Carol Batista',	'carol@email.com',	'12345670809',	'11911111111'),
+('Luana Araújo',	'luana@email.com',	'12345607810',	'11900000000'),
+('Diogo Lucas',	'diogo@email.com',	'12345607811',	'11912121212'),
+('Monalisa dos Santos',	'monalisa@email.com',	'12345067812',	'11913131313'),
+('Ryan Avelino',	'ryan@email.com',	'12345067813',	'11914141414'),
+('Nicolas Hansel',	'nicolas@email.com',	'12345678140',	'11915151515'),
+('Amanda Rodrigues',	'amanda@email.com',	'12345607815',	'11916666666'),
+('Daniela Junior',	'dani@email.com',	'12345067816',	'11926666666');
 
 INSERT INTO emprestimos
 (usuarios_id, livros_id, data_emprestimo, data_devolucao, status)
