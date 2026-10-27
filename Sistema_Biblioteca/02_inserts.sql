@@ -216,6 +216,8 @@ INSERT INTO emprestimos
 (usuarios_id, livros_id, data_emprestimo, data_devolucao, status)
 VALUES
 (1, 30, '2026-10-01', '2026-10-15', 'ATIVO'),
+(2,	2,	'2026-10-20',	'2026-10-30',	'ATIVO'),
+(3,	10,	'2026-10-30',	'2026-11-19',	'ATIVO'),
 (10, 22, '2026-10-27', '2026-11-17', 'ATIVO'), 
 (16, 41, '2026-11-10', '2026-11-20', 'ATIVO'), 
 (8, 35, '2026-10-01', '2026-10-10', 'ATIVO'), 
