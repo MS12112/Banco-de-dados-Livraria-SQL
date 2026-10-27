@@ -44,3 +44,8 @@ JOIN emprestimos e
     ON u.id = e.usuarios_id
 GROUP BY u.nome
 ORDER BY quantidade_emprestimos DESC;
+
+-- VIEW
+-- CASE
+-- HAVING
+-- SUBQUERY
