@@ -31,7 +31,7 @@ SELECT l.titulo
 FROM livros l
 JOIN emprestimos e 
 ON e.livros_id = l.id
-WHERE e.status IN ('ATIVO')
+WHERE e.status = 'ATIVO'
 ORDER BY l.titulo DESC;
 
 -- Livros mais antigos cadastrados
