@@ -1,10 +1,10 @@
 -- Livros por autor
  SELECT l.titulo, a.nome
  FROM autor a
- JOIN livros_autor al
- ON a.id = al.autor_id 
+ JOIN livros_autor la
+ ON a.id = la.autor_id 
  JOIN livros l
- ON l.id = al.livros_id
+ ON l.id = la.livros_id
  ORDER BY a.nome DESC
 
 -- Quantidade de livros por editora
